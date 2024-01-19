@@ -1,0 +1,55 @@
+
+OMP_NUM_THREADS=20 ./testAdvect_bad 2000 2000 20
+Advection of a 2000x2000 global field on 20 threads for 20 steps.
+Advection time 5.34e-01s, GFLOPs rate=3.00e+00 (per core 1.50e-01)
+Avg error of final field:  8.037e-08
+Max error of final field:  1.938e-07
+
+
+OMP_NUM_THREADS=20 ./testAdvect_bad 2000 2000 20
+Advection of a 2000x2000 global field on 20 threads for 20 steps.
+Advection time 5.20e-01s, GFLOPs rate=3.08e+00 (per core 1.54e-01)
+Avg error of final field:  8.037e-08
+Max error of final field:  1.938e-07
+
+
+OMP_NUM_THREADS=20 ./testAdvect_bad 2000 2000 20
+Advection of a 2000x2000 global field on 20 threads for 20 steps.
+Advection time 5.32e-01s, GFLOPs rate=3.01e+00 (per core 1.50e-01)
+Avg error of final field:  8.037e-08
+Max error of final field:  1.938e-07
+
+
+OMP_NUM_THREADS=20 ./testAdvect_bad 2000 2000 20
+Advection of a 2000x2000 global field on 20 threads for 20 steps.
+Advection time 5.37e-01s, GFLOPs rate=2.98e+00 (per core 1.49e-01)
+Avg error of final field:  8.037e-08
+Max error of final field:  1.938e-07
+
+
+OMP_NUM_THREADS=20 ./testAdvect_bad 2000 2000 20
+Advection of a 2000x2000 global field on 20 threads for 20 steps.
+Advection time 5.27e-01s, GFLOPs rate=3.03e+00 (per core 1.52e-01)
+Avg error of final field:  8.037e-08
+Max error of final field:  1.938e-07
+
+
+OMP_NUM_THREADS=20 ./testAdvect_bad 2000 2000 20
+Advection of a 2000x2000 global field on 20 threads for 20 steps.
+Advection time 5.16e-01s, GFLOPs rate=3.10e+00 (per core 1.55e-01)
+Avg error of final field:  8.037e-08
+Max error of final field:  1.938e-07
+
+
+======================================================================================
+                  Resource Usage on 2023-05-26 08:31:15:
+   Job Id:             85137436.gadi-pbs
+   Project:            c07
+   Exit Status:        0
+   Service Units:      0.40
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:01:05        
+   Memory Requested:   32.0GB                Memory Used: 65.76MB         
+   Walltime requested: 00:01:00            Walltime Used: 00:00:05        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================
